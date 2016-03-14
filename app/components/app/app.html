@@ -1,0 +1,19 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="https://objectpartners.com/">
+        <img alt="Object Partners" src="/assets/ObjectPartnersLogo.png">
+      </a>
+    </div>
+    <div >
+      <ul class="nav navbar-nav">
+        <li><a [router-link]="['/Home']">Home <span class="sr-only">(current)</span></a></li>
+        <li><a [router-link]="['/Todo']">Todo</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section>
+  <router-outlet></router-outlet>
+</section>
